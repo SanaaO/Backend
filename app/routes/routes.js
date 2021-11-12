@@ -3,5 +3,6 @@ const shapeController = require("../controllers/shapeController");
 const Router = express.Router();
 
 Router.post("/add", shapeController.addShape);
+Router.put("/update", shapeController.update);
 
 module.exports = Router;

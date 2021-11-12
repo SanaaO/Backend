@@ -1,12 +1,19 @@
 require("dotenv").config();
 const express = require("express");
 const bodyparser = require("body-parser");
+const cors = require("cors");
 const mongoose = require("mongoose");
-
 const ShapeRoute = require("./app/routes/routes");
+
 const app = express();
+
 app.use(bodyparser.json());
 app.use("/shape", ShapeRoute);
+
+var corsOptions = {
+  origin: "http://localhost:4200",
+};
+app.use(cors(corsOptions));
 
 const PORT = process.env.PORT;
 const URL = process.env.DB_URL;

@@ -7,7 +7,7 @@ Implement backenend  application that will be used by the frontend application t
 ##### Endpoints
 
 
-|  Methods       |ASCII                          |HTML                                                          |
+|                                               Methods                                                         |
 |----------------|-------------------------------|--------------------------------------------------------------
 |Post            |/shape/add                     |create new 3D object and store it in database                 |
 |Put             |/shape/update?id=              |update configuration data of the selected object              |

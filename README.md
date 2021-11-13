@@ -6,12 +6,16 @@ Implement backenend  application that will be used by the frontend application t
 
 ##### Endpoints
 
+##### Endpoints
 
-|                                               Methods                                                         |
+
+|        -       |Endpoint                       |Methods                                                       |
 |----------------|-------------------------------|--------------------------------------------------------------
 |Post            |/shape/add                     |create new 3D object and store it in database                 |
 |Put             |/shape/update?id=              |update configuration data of the selected object              |
 |get             |/shape/get?id=                 |retrives configuration data of the selected id                |
 |get             |/shape/getAll                  |retrives configuration data of all objects stored in database |
 |delete          |/shape/delete?id=              |remove selected object from database                          |
+
+
 
